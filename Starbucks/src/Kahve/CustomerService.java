@@ -2,5 +2,5 @@ package Kahve;
 
 public interface CustomerService {
 
-    public void save(Customer customer);
+    void save(Customer customer) throws Exception;
 }
