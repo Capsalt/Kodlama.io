@@ -11,8 +11,5 @@ public class Main {
         Member mb1 = new Member(1,"Ali", "Veli", 2000,"12345612345");
         System.out.println(mb1.toString());
 
-
-
-
     }
 }
