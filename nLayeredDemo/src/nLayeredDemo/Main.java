@@ -13,8 +13,10 @@ public class Main {
 		ProductService productService = new ProductManager(new HibernateProductDao(),
 				new JLoggerManagerAdapter());
 		
-		Product product = new Product(1,2,"Elma",12,32);
-		productService.add(product);
+		Product product1 = new Product(1,2,"Elma",12,32);
+		Product product2 = new Product(2,4,"Armut",15,34);
+		productService.add(product1);
+		productService.add(product2);
 
 	}
 
